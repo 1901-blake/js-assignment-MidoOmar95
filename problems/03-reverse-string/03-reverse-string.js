@@ -2,5 +2,11 @@
 Define function: reverseStr(someStr)
 Reverse and return the String. */
 function reverseStr(someStr) {
-  
+
+    var splitString = someStr.split(""); 
+    var reverseArray = splitString.reverse(); 
+    var joinArray = reverseArray.join(""); 
+    return joinArray;
 }
+ 
+console.log(reverseStr("hello"));
