@@ -17,7 +17,8 @@ function bubbleSort(numArray) {
             }
         }
     } while (swap);
+    return numArray;
 }
 
 // bubbleSort(numArray);
-console.log(numArray);
+console.log(bubbleSort(numArray));
