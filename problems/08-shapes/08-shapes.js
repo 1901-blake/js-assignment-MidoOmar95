@@ -44,7 +44,7 @@ let str = '';
     case "Diamond":
     let k = 0;
     for (let i = 1; i <= height; i++) {
-        let s = "";
+        let str = "";
         let n = parseInt((height + 1) / 2);
         if (height % 2 == 0) {
             if (i <= n) k++;
@@ -55,11 +55,11 @@ let str = '';
         }
         for (var j = 1; j <= height; j++) {
             if (j <= (n - 1 + k) && j >= (n + 1 - k))
-                s += character;
+                str += character;
             else
-                s += " ";
+                str += " ";
         }
-        console.log(s);
+        console.log(str);
     }
       break;
 
