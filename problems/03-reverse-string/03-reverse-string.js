@@ -8,5 +8,5 @@ function reverseStr(someStr) {
     var joinArray = reverseArray.join(""); 
     return joinArray;
 }
- 
+// reverseStr("hello");
 console.log(reverseStr("hello"));

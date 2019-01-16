@@ -5,4 +5,10 @@ If incorrect input is entered, throw an exception stating the input was incorrec
 For example substring('hello', 0, 3) should give 'hel' */
 function substring(someStr, startIndex, endIndex) {
 
-}
+    const myNewStr = someStr.substring(startIndex, endIndex);
+
+    return myNewStr;
+
+};
+// substring('hello', 1, 4);
+console.log(substring('hello', 1, 4));

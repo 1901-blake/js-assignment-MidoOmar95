@@ -17,5 +17,5 @@ function fib(n) {
     return b;
 
 }
-
-// console.log(fib(5));
+// fib(5);
+console.log(fib(5));

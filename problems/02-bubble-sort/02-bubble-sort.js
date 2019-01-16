@@ -19,5 +19,5 @@ function bubbleSort(numArray) {
     } while (swap);
 }
 
-bubbleSort(numArray);
+// bubbleSort(numArray);
 console.log(numArray);

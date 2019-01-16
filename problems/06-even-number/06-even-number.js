@@ -3,5 +3,11 @@ Define function: isEven(someNum)
 Return true if even, false if odd.
 Do not use % operator. */
 function isEven(someNum) {
-  
+
+    if(Math.floor(someNum/2)*2 == someNum){
+        return true;
+      }
+      return false;
 }
+// isEven(4);
+console.log(isEven(0));
